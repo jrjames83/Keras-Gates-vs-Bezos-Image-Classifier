@@ -1,8 +1,18 @@
 # Jeff Bezos vs Bill Gates
 
-Get some images using the python script provided in the repo (not my own)
+We're going to classify images, folks. Instead of the lame dogs and cats, which are basically imagenet categories, we're doing to 2 similar dudes that look very similar (caucasion, over 50, wealthy, etc....). Fire up your conda enviorment, install some packages and let's get on our way :)
 
-Notebook included
+
+# Highlights:
+- Using Keras to train a convnet from scratch to classify images of Bill Gates or Jeff Bezos (binary classification)
+- Using the Generator Utilities Keras provides to avoid reading image data into RAM and also applying transformations to images
+- Comparing the bottleneck feature gen strategy using VGG16 with the scratch convnet and why the imagenet weights didn't really provide for much of an advantage
+
+# Forthcoming:
+- Does scaling from 500 to 2000 images improve the convnet?
+- Can we finetune another convnet to get closer to 90% accuracy?
+- How can we use intermediate layers to find similar images?
+- Better randomization of the image data (train and validation)
 
 # Details about my enviorment (sorry, no requirements.txt)
 
@@ -23,13 +33,15 @@ Using TensorFlow backend.
 
 You'll need firefox along with selenium webdriver to get this working. Again, use Conda as a package manager and it should be OK, at least on Mac :/
 
-# Stuff we're working on
+# Videos and brief descriptions
 
-- First Video: downloaing the images, getting a convnet working from scratch with around 75% validation accuracy
+- First Video: downloading the images, getting a convnet working from scratch with around 75% validation accuracy
 
 [![Keras Bezos Gates Part 1](https://img.youtube.com/vi/O3hffX-jC98/0.jpg)](https://www.youtube.com/watch?v=O3hffX-jC98)
 
-- Second Video: using a pretrained feature extractor VGG16 to genreate better features, which we'll feed into a MLP (not a conv network) (WIP)
+- Second Video: using a pretrained feature extractor VGG16 to genreate better features, which we'll feed into a MLP (not a conv network). 
+[![Keras Bezos Gates Part 1](https://img.youtube.com/vi/3yxXGWnSaJI/0.jpg)](https://www.youtube.com/watch?v=3yxXGWnSaJI)
+
 
 - Third Video: forthcoming!
 
