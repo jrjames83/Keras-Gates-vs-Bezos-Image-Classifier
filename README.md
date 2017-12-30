@@ -27,7 +27,7 @@ You'll need firefox along with selenium webdriver to get this working. Again, us
 
 - First Video: downloaing the images, getting a convnet working from scratch with around 75% validation accuracy
 
-[![Keras Bezos Gates Part 1](https://img.youtube.com/vi/O3hffX-jC98/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![Keras Bezos Gates Part 1](https://img.youtube.com/vi/O3hffX-jC98/0.jpg)](https://www.youtube.com/watch?v=O3hffX-jC98)
 
 - Second Video: using a pretrained feature extractor VGG16 to genreate better features, which we'll feed into a MLP (not a conv network) (WIP)
 
