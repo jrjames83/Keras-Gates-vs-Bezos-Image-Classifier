@@ -1,0 +1,30 @@
+1514758637408	geckodriver	INFO	geckodriver 0.19.1
+1514758637413	geckodriver	INFO	Listening on 127.0.0.1:53021
+1514758639478	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\jeffr\\AppData\\Local\\Temp\\rust_mozprofile.tktIYHd8I5SF"
+1514758639953	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\jeffr\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1514758640802	Marionette	INFO	Listening on port 53027
+1514758640991	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514758641027	Marionette	DEBUG	Register listener.js for window 4294967297
+1514758641036	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514758641371	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514758641372	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514758641853	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/search?safe=off&site=&tbm=isch&source=hp&q=border%20collie&oq=border%20collie&gs_l=img"
+1514758642705	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/search?safe=off&site=&tbm=isch&source=hp&q=border%20collie&oq=border%20collie&gs_l=img"
+1514758737182	geckodriver	INFO	geckodriver 0.19.1
+1514758737187	geckodriver	INFO	Listening on 127.0.0.1:54872
+1514758739239	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\jeffr\\AppData\\Local\\Temp\\rust_mozprofile.Ab9HK5LjwzSx"
+1514758739636	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\jeffr\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1514758740442	Marionette	INFO	Listening on port 54878
+1514758740772	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514758740806	Marionette	DEBUG	Register listener.js for window 4294967297
+1514758740819	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514758741126	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514758741126	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514758741569	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/search?safe=off&site=&tbm=isch&source=hp&q=yellow%20labrador%20retriever&oq=yellow%20labrador%20retriever&gs_l=img"
+1514758742304	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/search?safe=off&site=&tbm=isch&source=hp&q=yellow%20labrador%20retriever&oq=yellow%20labrador%20retriever&gs_l=img"

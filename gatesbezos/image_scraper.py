@@ -37,7 +37,7 @@ def fetch_image_urls(query, images_to_download):
     image_urls = set()
 
     search_url = "https://www.google.com/search?safe=off&site=&tbm=isch&source=hp&q={q}&oq={q}&gs_l=img"
-    browser = webdriver.Firefox()
+    browser = webdriver.Firefox(executable_path=r'C:\\Users\\jeffr\\geckodriver.exe')
     browser.get(search_url.format(q=query))
     def scroll_to_bottom():
         browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
