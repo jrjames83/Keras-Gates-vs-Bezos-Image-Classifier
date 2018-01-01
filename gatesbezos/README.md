@@ -1,19 +1,21 @@
-# Jeff Bezos vs Bill Gates
+# Jeff Bezos vs Bill Gates (scratch convnet accuracy tops out around 80%)
 
 We're going to classify images, folks. Instead of the lame dogs and cats, which are basically imagenet categories, we're doing to 2 similar dudes that look very similar (caucasion, over 50, wealthy, etc....). Fire up your conda enviorment, install some packages and let's get on our way :)
 
+# Border Collie or Yellow Labrador? (scratch convnet accuracy of 90%!)
 
-# Highlights:
+Since it's challenging to get our validation acuracy over 80% for the bezos vs gates dataset, we move onto a binary classification problem using more distinct subject matter. Is it a border collie, or a yellow labrador? Some adventures in this dataset:
+
+- deep dive into keras generator properties (filesnames, classes)
+- confusion matrix overview using sklearn
+- analyzing misclassified photos
+
+## Misc Topics We Talk About
 - Using Keras to train a convnet from scratch to classify images of Bill Gates or Jeff Bezos (binary classification)
 - Using the Generator Utilities Keras provides to avoid reading image data into RAM and also applying transformations to images
 - Comparing the bottleneck feature gen strategy using VGG16 with the scratch convnet and why the imagenet weights didn't really provide for much of an advantage
 - Differences in performance between taking the first 50 images google served as validation data, vs taking a large, random subset. The dangers of small data!
 
-# Forthcoming:
-- Does scaling from 500 to 2000 images improve the convnet?
-- Can we finetune another convnet to get closer to 90% accuracy?
-- How can we use intermediate layers to find similar images?
-- Better randomization of the image data (train and validation)
 
 # Details about my enviorment (sorry, no requirements.txt)
 
@@ -59,7 +61,9 @@ You'll need firefox along with selenium webdriver to get this working. Again, us
 
 [![Keras Bezos Gates Part 5](https://img.youtube.com/vi/DCzJQTcYgYU/0.jpg)](https://www.youtube.com/watch?v=DCzJQTcYgYU)
 
+- Sixth Video: using our border collie vs yellow lab model, we begin working on a new problem, "image similarity". We create a new model from our traind one which outputs 96d vectors for each image, then use some numpy to create a cosine similarity matrix. Finally we spot check the data and find some really cool results!
 
+[![Keras Bezos Gates Part 5](https://img.youtube.com/vi/7I5iLdY4IVc/0.jpg)](https://www.youtube.com/watch?v=7I5iLdY4IVc)
 
 
 
