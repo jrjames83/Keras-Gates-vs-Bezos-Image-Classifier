@@ -42,9 +42,23 @@ You'll need firefox along with selenium webdriver to get this working. Again, us
 
 - Second Video: using a pretrained feature extractor VGG16 to genreate better features, which we'll feed into a MLP (not a conv network). 
 
-[![Keras Bezos Gates Part 1](https://img.youtube.com/vi/3yxXGWnSaJI/0.jpg)](https://www.youtube.com/watch?v=3yxXGWnSaJI)
+[![Keras Bezos Gates Part 2](https://img.youtube.com/vi/3yxXGWnSaJI/0.jpg)](https://www.youtube.com/watch?v=3yxXGWnSaJI)
 
 
 - Third Video: here we delve into further issues around training and validation set splitting and also step through a basic python script to split our images up into training and validation sets. I also reflect a bit on these issues
 
-[![Keras Bezos Gates Part 1](https://img.youtube.com/vi/er5Z4p9W29U/0.jpg)](https://www.youtube.com/watch?v=er5Z4p9W29U)
+[![Keras Bezos Gates Part 3](https://img.youtube.com/vi/er5Z4p9W29U/0.jpg)](https://www.youtube.com/watch?v=er5Z4p9W29U)
+
+
+- Fourth Video: we switch gears and move onto a better dataset to apply our incremental learning stragies (scratch convnet --> transfer learning). I also move to a windows machine with a gtx1080ti card
+
+[![Keras Bezos Gates Part 4](https://img.youtube.com/vi/r3vFSRCdkhU/0.jpg)](https://www.youtube.com/watch?v=r3vFSRCdkhU)
+
+
+
+
+
+
+
+
+
