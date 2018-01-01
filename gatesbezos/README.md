@@ -55,6 +55,9 @@ You'll need firefox along with selenium webdriver to get this working. Again, us
 [![Keras Bezos Gates Part 4](https://img.youtube.com/vi/r3vFSRCdkhU/0.jpg)](https://www.youtube.com/watch?v=r3vFSRCdkhU)
 
 
+- Fifth Video: using our validation generator, but tweaking it to generate ordered predictions and hacking some code together to check out some images and view the images behind some inaccurately classified predictions. We also introduce the confusion matrix
+
+[![Keras Bezos Gates Part 5](https://img.youtube.com/vi/DCzJQTcYgYU/0.jpg)](https://www.youtube.com/watch?v=DCzJQTcYgYU)
 
 
 
