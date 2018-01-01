@@ -61,7 +61,9 @@ You'll need firefox along with selenium webdriver to get this working. Again, us
 
 [![Keras Bezos Gates Part 5](https://img.youtube.com/vi/DCzJQTcYgYU/0.jpg)](https://www.youtube.com/watch?v=DCzJQTcYgYU)
 
+- Sixth Video: using our border collie vs yellow lab model, we begin working on a new problem, "image similarity". We create a new model from our traind one which outputs 96d vectors for each image, then use some numpy to create a cosine similarity matrix. Finally we spot check the data and find some really cool results!
 
+[![Keras Bezos Gates Part 5](https://img.youtube.com/vi/7I5iLdY4IVc/0.jpg)](https://www.youtube.com/watch?v=7I5iLdY4IVc)
 
 
 
